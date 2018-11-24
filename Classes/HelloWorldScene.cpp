@@ -1,5 +1,4 @@
 #include "HelloWorldScene.h"
-
 using namespace cocos2d;
 
 CCScene* HelloWorld::scene()
@@ -120,4 +119,3 @@ void HelloWorld::menuCloseCallback(CCObject* pSender)
     // "close" menu item clicked
     CCDirector::sharedDirector()->end();
 }
-
